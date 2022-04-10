@@ -19,7 +19,7 @@ function App() {
   }, [])
 
   const initPersonal = () => {
-    return fetch('/data/personal.json')
+    return fetch('/liuhui/data/personal.json')
       .then(res => res.json())
       .then(json => {
         setPersonal(json)
@@ -27,7 +27,7 @@ function App() {
   }
 
   const initStudents = () => {
-    return fetch('/data/students.html')
+    return fetch('/liuhui/data/students.html')
       .then(res => res.text())
       .then(html => {
         setStudentsHtml(html)
@@ -35,7 +35,7 @@ function App() {
   }
 
   const initCommunity = () => {
-    return fetch('/data/community.xml')
+    return fetch('/liuhui/data/community.xml')
       .then(res => res.text())
       .then(html => {
         setCommunityXml(html)
