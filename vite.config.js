@@ -11,7 +11,8 @@ export default defineConfig({
       additionalLegacyPolyfills: ['regenerator-runtime/runtime']
     })
   ],
+  base:"liuhui",
   build: {
-    outDir: 'docs'
+    outDir: 'dist'
   }
 })
