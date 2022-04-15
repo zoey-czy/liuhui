@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div class='community'>
   <h2>Community (Since 2020)</h2>
-  <ul>
+  <ul class='solid'>
     <li>
       2022: <a href='https://conf.researchr.org/home/ase-2022'>ASE</a> PC, <a href='https://cyprusconferences.org/icsme2022/'>ICSME</a> PC, <a href='https://saner2022.uom.gr/'>SANER</a> PC <a href='https://digital-library.theiet.org/content/journals/iet-sen'>IET Software</a> AE
     </li>
     <li>
       2021: <a href='https://icsme2021.github.io/'>ICSME</a> PC, <a href='https://saner2021.shidler.hawaii.edu/'>SANER</a> PC, <a href='https://internetware2020.github.io/'>Internetware</a> PC, <a href='https://ieeecompsac.computer.org/2021/'>COMPSAC</a> PC, <a href='https://digital-library.theiet.org/content/journals/iet-sen'>IET Software</a> AE, <a href='https://ieeeaccess.ieee.org/'>IEEE Access</a> AE
     </li>
-    <li>
+    <li >
       2020: <a href='https://icsme2020.github.io/'>ICSME</a> PC, <a href='http://conf.saner2021.site/'>SANER</a> PC, <a href='https://www.re20.org/'>RE</a> Posters and Demos Track PC, <a href='http://compsac.org/'>COMPSAC</a> PC, <a href='https://internetware2020.github.io/'>Internetware</a> PC, <a href='https://digital-library.theiet.org/content/journals/iet-sen'>IET Software</a> AE, <a href='https://www.springer.com/journal/10664'>EMSE</a> Guest AE, <a href='https://www.journals.elsevier.com/journal-of-systems-and-software'>JSS</a> Guest AE
     </li>
   </ul>
@@ -44,7 +44,7 @@
           [2].  Yuxia Zhang, <span class='bold'>Hui Liu</span>, Xin Tan, Minghui Zhou, Zhi Jin, and Jiaxin Zhu. 2022. Turnover of Companies in OpenStack: Prevalence and Rationale. ACM Transactions on Software Engineering and Methodology (TOSEM), to appear
         </li>
         <li>
-          [3].  Zedong Peng, Prachi Rathod, Nan Niu, Tanmay Bhowmik, <span class='bold'>Hui Liu</span>, Lin Shi, and Zhi Jin. <a href='https://liuhuigmail.github.io/publishedPappers/RE2021.pdf'>Environment-Driven Abstraction Identification for Requirements-Based Testing</a>. IEEE 29th International Requirements Engineering Conference (RE2021), pp. 245-256 BEST PAPER AWARD!
+          [3].  Zedong Peng, Prachi Rathod, Nan Niu, Tanmay Bhowmik, <span class='bold'>Hui Liu</span>, Lin Shi, and Zhi Jin. <a href='https://liuhuigmail.github.io/publishedPappers/RE2021.pdf'>Environment-Driven Abstraction Identification for Requirements-Based Testing</a>. IEEE 29th International Requirements Engineering Conference (RE2021), pp. 245-256 <span class='text'>BEST PAPER AWARD</span>!
         </li>
         <li>
           [4].  Yanjie Jiang, <span class='bold'>Hui Liu*</span>, Yuxia Zhang, Nan Niu, Yuhai Zhao Lu Zhang. <a href='https://2021.esec-fse.org/details/fse-2021-papers/85/Which-Abbreviations-Should-Be-Expanded-'>Which Abbreviations Should Be Expanded?</a> The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE), pp.578-589, 2021

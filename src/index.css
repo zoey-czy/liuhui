@@ -18,3 +18,11 @@ p {
   margin: 0;
   padding: 0;
 }
+.solid{
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000;
+}
+.text{
+  color: crimson;
+  background-color: yellow;
+}
