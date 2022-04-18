@@ -1,3 +1,11 @@
+@media screen and (max-width: 600px) {
+  .per_info {
+    line-height: 1.2;
+    & * {
+      font-size: 12px !important;
+    }
+  }
+}
 .app {
   max-width: 980px;
   margin: 0 auto;
@@ -16,7 +24,7 @@
     .per_info {
       display: flex;
       justify-content: center;
-
+      align-items: center;
       .info_l {
         margin-right: 20px;
 
@@ -28,7 +36,7 @@
 
       .info_r {
         position: relative;
-        font-family: "Times New Roman",serif;
+        font-family: "Times New Roman", serif;
 
         h2 {
           margin-bottom: 12px;
