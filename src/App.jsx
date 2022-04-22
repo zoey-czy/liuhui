@@ -15,13 +15,14 @@ function App() {
   }, []);
 
   const initPersonal = () => {
-    ajax.get("/liuhui/data/personal.json", {}, (res) => {
+    ajax.get("/data/personal.json", {}, (res) => {
       setPersonal(res);
+      console.log(personal)
     });
   };
 
   const initStudents = () => {
-    return fetch("/liuhui/data/students.html")
+    return fetch("/data/students.html")
       .then((res) => res.text())
       .then((html) => {
         setStudentsHtml(html);
@@ -29,7 +30,7 @@ function App() {
   };
 
   const initCommunity = () => {
-    return fetch("/liuhui/data/community.xml")
+    return fetch("/data/community.xml")
       .then((res) => res.text())
       .then((html) => {
         setCommunityXml(html);
