@@ -25,7 +25,7 @@ function App() {
     <div className="app">
       <Row justify="space-between" align="bottom">
         <Col flex="120px">
-          <img style={{ width: 88 }} src={require("../src/image/cslogo2.gif")} alt="" />
+          <img style={{ width: 88 }} src={require("../src/image/cslogo2.jpg")} alt="" />
         </Col>
         <Col flex="auto">
           <h2>Institute of Software Intelligence </h2>
