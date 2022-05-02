@@ -1,12 +1,9 @@
-@media screen and (max-width: 600px) {
-  .per_info {
-    line-height: 1.2;
-    & * {
-      font-size: 12px !important;
-    }
-  }
+
+body{
+  background-color: aliceblue;
 }
 .app {
+  background: #fff;
   max-width: 980px;
   margin: 0 auto;
   padding: 0 24px 100px;
@@ -62,9 +59,6 @@
     .per_des {
       margin-top: 20px;
       padding-top: 20px;
-      border-top: 1px solid #000;
-      border-bottom: 1px solid #000;
-
       p {
         margin-bottom: 30px;
         font-size: 18px;
@@ -81,35 +75,7 @@
     }
   }
 
-  .students {
-    h2 {
-      margin: 12px 0;
-    }
-
-    ul {
-      list-style: none;
-
-      li {
-        display: flex;
-        align-items: center;
-
-        & + li {
-          margin-top: 12px;
-        }
-
-        img {
-          width: 84px;
-          height: 118px;
-          margin-right: 12px;
-        }
-
-        .link {
-          color: blue;
-          text-decoration: underline;
-        }
-      }
-    }
-  }
+  
 
   .former_students,
   .teaching,
@@ -143,6 +109,5 @@
   .teaching,
   .community {
     line-height: 25px;
-    border-top: 1px solid #000;
   }
 }

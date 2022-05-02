@@ -1,4 +1,4 @@
-import { TextLoop } from "react-text-loop-next";
+import { TextLoop  } from "react-text-loop-next";
 
 function ResearchTextLoop() {
   return (

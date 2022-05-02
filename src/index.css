@@ -26,3 +26,12 @@ p {
   color: crimson;
   background-color: yellow;
 }
+.text-color-primary{
+  color: #1890ff;
+}
+
+
+.ant-collapse-header{
+  font-size: 24px;
+  font-weight: bold;
+}

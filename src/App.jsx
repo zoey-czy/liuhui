@@ -28,8 +28,8 @@ function App() {
           <img style={{ width: 88 }} src={require("../src/image/cslogo2.jpg")} alt="" />
         </Col>
         <Col flex="auto">
-          <h2>Institute of Software Intelligence </h2>
-          <h2>and Software Engineering</h2>
+          <h2 className="text-color-primary">Institute of Software Intelligence </h2>
+          <h2 className="text-color-primary">and Software Engineering</h2>
         </Col>
         <Col flex="300px">
           <Search placeholder="input search text" allowClear onSearch={onSearch} style={{ width: 300 }} />
