@@ -9,10 +9,10 @@ import "./App.less";
 const { Search } = Input;
 
 function App() {
-  const menuDefaultSelectedKeys = useLocation().pathname.slice(1) || "Homepage";
+  const menuDefaultSelectedKeys = useLocation().pathname.slice(1) || "liuhui";
   const navigate = useNavigate();
   const items = [
-    { label: "Homepage", key: "Homepage" },
+    { label: "Homepage", key: "liuhui" },
     { label: "Mentor", key: "Mentor" },
     { label: "Students", key: "Students" },
     { label: "Research", key: "Research" },
@@ -46,6 +46,7 @@ function App() {
       />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/liuhui" element={<Home />} />
         <Route path="/Homepage" element={<Home />} />
         <Route path="/Mentor" element={<Mentor />} />
         <Route path="/Students" element={<Students />} />
